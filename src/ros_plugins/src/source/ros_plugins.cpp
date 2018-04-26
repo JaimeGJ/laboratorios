@@ -221,8 +221,8 @@ int main(int argc, char **argv)
 
 
   std::ifstream in_walls_1("/home/usuario/catkin_ws/src/labrob_gazebo/models/barrier_1/model.sdf");
-  std::ifstream in_walls_2("/home/usuario/workspace/robotics_lab/src/labrob_gazebo/models/barrier_2/model.sdf");
-  std::ifstream in_walls_3("/home/usuario/workspace/robotics_lab/src/labrob_gazebo/models/barrier_3/model.sdf");
+  std::ifstream in_walls_2("/home/usuario/catkin_ws/src/labrob_gazebo/models/barrier_2/model.sdf");
+  std::ifstream in_walls_3("/home/usuario/catkin_ws/src/labrob_gazebo/models/barrier_3/model.sdf");
 
   std::ifstream in_obj_1("/home/usuario/catkin_ws/src/labrob_gazebo/models/airplane_blue/model.sdf");
   std::ifstream in_obj_2("/home/usuario/catkin_ws/src/labrob_gazebo/models/airplane_green/model.sdf");
