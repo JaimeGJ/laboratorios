@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/paula/catkin_ws/src/opencv_aruco/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/paula/catkin_ws/src/opencv_aruco/devel
+
+Name: opencv_aruco
+Description: Description of opencv_aruco
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/paula/catkin_ws/src/opencv_aruco/devel/lib 
+Requires: 

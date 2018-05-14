@@ -3,7 +3,7 @@
   <model name="airplane_blue">
 	<static>true</static>
 	<link name='chassis'>
-	<pose>0 0 .5 -1.5708 0 0</pose>
+	<pose>0 0 .3 -1.5708 0 0</pose>
 
 	<collision name='collision'>
 	  <geometry>

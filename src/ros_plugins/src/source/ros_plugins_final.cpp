@@ -220,38 +220,38 @@ int main(int argc, char **argv)
   std::ifstream in_bomb(bomb.c_str());
 
 
-  std::ifstream in_walls_1("/home/usuario/catkin_ws/src/labrob_gazebo/models/barrier_1/model.sdf");
-  std::ifstream in_walls_2("/home/usuario/catkin_ws/src/labrob_gazebo/models/barrier_2/model.sdf");
-  std::ifstream in_walls_3("/home/usuario/catkin_ws/src/labrob_gazebo/models/barrier_3/model.sdf");
+  std::ifstream in_walls_1("/home/jaime/catkin_ws/src/labrob_gazebo/models/barrier_1/model.sdf");
+  std::ifstream in_walls_2("/home/jaime/catkin_ws/src/labrob_gazebo/models/barrier_2/model.sdf");
+  std::ifstream in_walls_3("/home/jaime/catkin_ws/src/labrob_gazebo/models/barrier_3/model.sdf");
 
-  std::ifstream in_obj_1("/home/usuario/catkin_ws/src/labrob_gazebo/models/airplane_blue/model.sdf");
-  std::ifstream in_obj_2("/home/usuario/catkin_ws/src/labrob_gazebo/models/airplane_green/model.sdf");
-  std::ifstream in_obj_3("/home/usuario/catkin_ws/src/labrob_gazebo/models/airplane_red/model.sdf");
+  std::ifstream in_obj_1("/home/jaime/catkin_ws/src/labrob_gazebo/models/airplane_blue/model.sdf");
+  std::ifstream in_obj_2("/home/jaime/catkin_ws/src/labrob_gazebo/models/airplane_green/model.sdf");
+  std::ifstream in_obj_3("/home/jaime/catkin_ws/src/labrob_gazebo/models/airplane_red/model.sdf");
 
-  std::ifstream in_obj_4("/home/usuario/catkin_ws/src/labrob_gazebo/models/bike_blue/model.sdf");
-  std::ifstream in_obj_5("/home/usuario/catkin_ws/src/labrob_gazebo/models/bike_green/model.sdf");
-  std::ifstream in_obj_6("/home/usuario/catkin_ws/src/labrob_gazebo/models/bike_red/model.sdf");
+  std::ifstream in_obj_4("/home/jaime/catkin_ws/src/labrob_gazebo/models/bike_blue/model.sdf");
+  std::ifstream in_obj_5("/home/jaime/catkin_ws/src/labrob_gazebo/models/bike_green/model.sdf");
+  std::ifstream in_obj_6("/home/jaime/catkin_ws/src/labrob_gazebo/models/bike_red/model.sdf");
 
-  std::ifstream in_obj_7("/home/usuario/catkin_ws/src/labrob_gazebo/models/boat_blue/model.sdf");
-  std::ifstream in_obj_8("/home/usuario/catkin_ws/src/labrob_gazebo/models/boat_green/model.sdf");
-  std::ifstream in_obj_9("/home/usuario/catkin_ws/src/labrob_gazebo/models/boat_red/model.sdf");
+  std::ifstream in_obj_7("/home/jaime/catkin_ws/src/labrob_gazebo/models/boat_blue/model.sdf");
+  std::ifstream in_obj_8("/home/jaime/catkin_ws/src/labrob_gazebo/models/boat_green/model.sdf");
+  std::ifstream in_obj_9("/home/jaime/catkin_ws/src/labrob_gazebo/models/boat_red/model.sdf");
 
-  std::ifstream in_obj_10("/home/usuario/catkin_ws/src/labrob_gazebo/models/bottle_blue/model.sdf");
-  std::ifstream in_obj_11("/home/usuario/catkin_ws/src/labrob_gazebo/models/bottle_green/model.sdf");
-  std::ifstream in_obj_12("/home/usuario/catkin_ws/src/labrob_gazebo/models/bottle_red/model.sdf");
+  std::ifstream in_obj_10("/home/jaime/catkin_ws/src/labrob_gazebo/models/bottle_blue/model.sdf");
+  std::ifstream in_obj_11("/home/jaime/catkin_ws/src/labrob_gazebo/models/bottle_green/model.sdf");
+  std::ifstream in_obj_12("/home/jaime/catkin_ws/src/labrob_gazebo/models/bottle_red/model.sdf");
 
-  std::ifstream info_point_1("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_1.sdf");
-  std::ifstream info_point_2("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_2.sdf");
-  std::ifstream info_point_3("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_3.sdf");
-  std::ifstream info_point_4("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_4.sdf");
-  std::ifstream info_point_5("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_5.sdf");
-  std::ifstream info_point_6("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_6.sdf");
-  std::ifstream info_point_7("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_7.sdf");
-  std::ifstream info_point_8("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_8.sdf");
-  std::ifstream info_point_9("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_9.sdf");
-  std::ifstream info_point_10("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_10.sdf");
-  std::ifstream info_point_11("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_11.sdf");
-  std::ifstream info_point_12("/home/usuario/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_12.sdf");
+  std::ifstream info_point_1("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_1.sdf");
+  std::ifstream info_point_2("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_2.sdf");
+  std::ifstream info_point_3("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_3.sdf");
+  std::ifstream info_point_4("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_4.sdf");
+  std::ifstream info_point_5("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_5.sdf");
+  std::ifstream info_point_6("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_6.sdf");
+  std::ifstream info_point_7("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_7.sdf");
+  std::ifstream info_point_8("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_8.sdf");
+  std::ifstream info_point_9("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_9.sdf");
+  std::ifstream info_point_10("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_10.sdf");
+  std::ifstream info_point_11("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_11.sdf");
+  std::ifstream info_point_12("/home/jaime/catkin_ws/src/labrob_gazebo/models/aruco_cube/model_12.sdf");
 
 
   std::stringstream buffer;

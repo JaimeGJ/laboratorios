@@ -15,18 +15,18 @@
   <arg name="yaw" default="3.14159"/>
   
   
-  <param name="robot_description" command="$(find xacro)/xacro $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
 
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model turtlebot3_burger -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -R $(arg roll) -P $(arg pitch) -Y $(arg yaw) -param robot_description" />
 
 
-<!--node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
     <param name="publish_frequency" type="double" value="50.0" />
-  </node-->
+</node>
 
 
   
-<node name="rviz" pkg="rviz" type="rviz" />
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find labrob_gazebo)/launch/labrob_config.rviz" />
 
 <!--node name="opencv_tutorial_node" pkg="opencv_tutorial" type="opencv_tutorial_node"/-->
 
